@@ -120,6 +120,7 @@ namespace Paint
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             g.Clear(Color.White);
+            pic.Refresh();
         }
 
         private int fullscreen = 0;
